@@ -1,0 +1,538 @@
+/* Home Page Styles */
+.home-page {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.home-page .container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.home-page h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.home-page .form-group {
+  margin-bottom: 20px;
+}
+
+.home-page input[type="text"],
+.home-page input[type="email"],
+.home-page input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.home-page button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-page button:hover {
+  background-color: #2980b9;
+}
+
+.home-page p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.home-page a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.home-page a:hover {
+  text-decoration: underline;
+}
+
+.home-page .flash {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.home-page .flash.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.home-page .flash.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.home-page .flash.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+/* Register Page Styles */
+.register-page {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.register-page .container {
+  width: 100%;
+  max-width: 420px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.register-page h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.register-page .form-group {
+  margin-bottom: 20px;
+}
+
+.register-page input[type="text"],
+.register-page input[type="email"],
+.register-page input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.register-page button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-page button:hover {
+  background-color: #2980b9;
+}
+
+.register-page p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.register-page a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.register-page a:hover {
+  text-decoration: underline;
+}
+
+.register-page .flash {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.register-page .flash.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.register-page .flash.danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.register-page .flash.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+/* Global */
+body {
+  background-color: #f4f6f8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 15px 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logout-button {
+  padding: 8px 14px;
+  background-color: #dc2626; /* red */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #b91c1c; /* darker red */
+}
+
+.add-expense-button {
+  padding: 8px 14px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-expense-button:hover {
+  background-color: #3730a3;
+}
+
+/* Containers */
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h2,
+h3 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form input[type="text"],
+form input[type="number"],
+form input[type="date"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+/* Table Styles */
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 14px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-table th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+.expense-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* /* Delete Button  */
+/* Wrap buttons in a flex container */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.action-buttons form {
+  margin: 0;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.filter-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-form input,
+.filter-form button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.summary-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 20px;
+  gap: 20px;
+}
+
+.summary-cards .card {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 12px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary-cards .card h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.summary-cards .card p {
+  font-size: 1.5em;
+  color: #111;
+}
+
+/* Charts Section */
+/* Adjusted Chart Sizes */
+.charts-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  gap: 20px;
+}
+
+.chart-container {
+  width: 48%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the chart horizontally */
+  justify-content: center;
+}
+
+.chart-container canvas {
+  width: 90% !important;
+  max-width: 250px; /* Prevents the chart from growing too big */
+  height: auto !important;
+  aspect-ratio: 1 / 1; /* Keeps it a perfect circle */
+}
+
+/* Expense Summary Section */
+.expense-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.summary-card {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.summary-card h3 {
+  font-size: 1.25em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.summary-card p {
+  font-size: 1.5em;
+  color: #16a085;
+}
+
+/* Expense Table */
+.expense-table {
+  margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 14px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-table th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+.prediction-box {
+  margin: 20px auto;
+  padding: 15px; /* Decreased padding */
+  background-color: #e0f2fe;
+  border-left: 6px solid #3b82f6;
+  border-radius: 12px;
+  width: 40%; /* Decreased width */
+  text-align: center;
+  font-size: 1rem; /* Decreased font size */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Progress Bar Container */
+.budget-summary {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.budget-summary h4 {
+  margin-bottom: 10px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 25px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #34d399;
+  transition: width 0.4s ease;
+  border-radius: 12px 0 0 12px;
+}
+
+/* Adjust color when over 100% */
+.progress-bar.over-budget {
+  background-color: #f87171;
+}
